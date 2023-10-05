@@ -122,8 +122,8 @@ a:hover {
     color: inherit;
 }
 b {
-    font-weight: 400;
-    color: #b19777;
+    font-weight: 600;
+    color: #28342e;
 }
 /* text field */
 button,
@@ -218,7 +218,7 @@ input[type="submit"] {
     font-weight: 300;
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
-    background: #b19777;
+    background: #28342e;
     color: #fff;
     padding: 8px 24px;
     margin: 0;
@@ -519,12 +519,12 @@ blockquote cite:before {
     margin-bottom: 30px;
 }
 .section-title span {
-    color: #b19777;
+    color: #28342e;
 }
 .section-title2 {
     font-size: 35px;
     font-weight: 300;
-    color: #b19777;
+    color: #28342e;
     position: relative;
     line-height: 1.25em;
     margin-bottom: 30px;
@@ -578,10 +578,10 @@ blockquote cite:before {
     color: #b19777;
 }
 .navbar .navbar-nav .active {
-    color: #b19777 !important;
+    color: #f5d683 !important;
 }
 .navbar .navbar-nav .active i {
-    color: #b19777;
+    color: #f5d683;
 }
 .nav-scroll {
     background: #fff;
@@ -2475,7 +2475,7 @@ hr {
 .projects .item .con h6,
 .projects .item .con h6 a {
     position: relative;
-    color: #b19777;
+    color: #28342e;
     font-size: 13px;
     font-weight: 400;
     margin-top: 0px;
@@ -2946,7 +2946,7 @@ hr {
     margin-right: 0;
 }
 .bauen-gallery-filter li.active {
-    color: #b19777;
+    color: #28342e;
     content: "";
     left: 0;
     bottom: -4px;
@@ -3078,10 +3078,10 @@ hr {
     z-index: 2;
 }
 .project-bar h5  {
-    color: #b19777;
+    color: #28342e;
     font-size: 16px;
     font-family: 'Didact Gothic', sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     margin-bottom: 5px;
 }
 @media (max-width: 576px) {
@@ -4158,12 +4158,13 @@ hr.border-2 {
 .main-footer .fothead h6 {
     margin-bottom: 0px;
     font-family: 'Oswald', sans-serif;
-    color: #b19777;
+    color: #28342e;
     font-size: 17px;
+
 }
 .main-footer .fotcont .fothead h6 {
     font-family: 'Didact Gothic', sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     position: relative;
     padding-bottom: 5px;
     font-size: 16px;
@@ -4384,10 +4385,10 @@ hr.border-2 {
     box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.2);
 }
 .progress-wrap::after {
-    color: #b19777;
+    color: #28342e;
 }
 .progress-wrap svg.progress-circle path {
-    stroke: #b19777;
+    stroke: #28342e;
 }
 
 /* ======= Accordion Box (for Faqs) style ======= */
@@ -4878,10 +4879,11 @@ hr.border-2 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
 }
-.about-mob .row{
-    flex-direction: column-reverse;
-}
+
 @media (max-width: 767px){
+    .about-mob .row{
+        flex-direction: column-reverse;
+    }
 	.comming{
 		min-height: 200vh;
 	}
